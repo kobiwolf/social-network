@@ -1,0 +1,36 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\kobi\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js init
+
+PATH: 
+  C:\Users\kobiWolf\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\kobiWolf\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\kobiWolf\bin;C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.15.3465.0_x64__8wekyb3d8bbwe;C:\Windows\SysWOW64\wbem;C:\Users\kobi\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\nodejs;C:\Windows\System32\WindowsPowerShell\v1.0;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Python 2.7;C:\Program Files\Microsoft SQL Server\110\Tools\Binn;C:\Program Files\Microsoft SQL Server\120\Tools\Binn;C:\Program Files\Git\mingw64\libexec\git-core;C:\Program Files\Git\cmd;C:\Python27;C:\flutter\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Java\jdk-17.0.2\bin;C:\Windows\System32;C:\Users\kobi\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\kobi\AppData\Roaming\npm;C:\Users\kobi\AppData\Roaming\nvm\v16.14.0\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.11
+
+Node version: 
+  18.14.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (C:\Users\kobi\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:137023:13)
+      at Interface.emit (node:events:513:28)
+      at [_ttyWrite] [as _ttyWrite] (node:internal/readline/interface:1130:18)
+      at ReadStream.onkeypress (node:internal/readline/interface:270:20)
+      at ReadStream.emit (node:events:513:28)
+      at emitKeys (node:internal/readline/utils:357:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (node:internal/readline/emitKeypressEvents:64:36)
+      at ReadStream.emit (node:events:513:28)
+      at addChunk (node:internal/streams/readable:324:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
